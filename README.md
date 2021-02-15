@@ -26,3 +26,14 @@ npx install-peerdeps --dev eslint-config-jimmontour
   ]
 }
 ```
+
+## With Create React App
+
+1. Run `npx install-peerdeps --dev eslint-config-wesbos`
+1. Crack open your `package.json` and replace `"extends": "react-app"` with `"extends": "wesbos"`
+
+## With Gatsby
+
+1. Run `npx install-peerdeps --dev eslint-config-wesbos`
+1. If you have an existing `.prettierrc` file, delete it.
+1. follow the `Local / Per Project Install` steps above
