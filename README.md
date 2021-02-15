@@ -1,6 +1,6 @@
 # Eslint and Prettier Config
 
-These are my settings for ESLint and Prettier.  This is a modification of Wes Bos' config.  Feel free to fork for your setup and tweak to your liking.
+These are my settings for ESLint and Prettier.  Feel free to fork for your setup and tweak to your liking.
 
 * Lints JavaScript based on the latest standards
 * Fixes issues and formatting errors with Prettier
@@ -11,15 +11,13 @@ These are my settings for ESLint and Prettier.  This is a modification of Wes Bo
 
 1. If you don't already have a `package.json` file, create one with `npm init`.
 
-2. Install everything needed by the config:
+2. Install everything needed:
 
 ```
-npx install-peerdeps --dev eslint-config-wesbos
+npx install-peerdeps --dev eslint-config-jimmontour
 ```
 
-3. You can see in your package.json there are now a big list of devDependencies.
-
-4. Create a `.eslintrc` file in the root of your project's directory (it should live where package.json does). Your `.eslintrc` file should look like this:
+3. Create a `.eslintrc` file in the root of your project's directory (it should live where package.json does). Your `.eslintrc` file should look like this:
 
 ```json
 {
@@ -28,5 +26,3 @@ npx install-peerdeps --dev eslint-config-wesbos
   ]
 }
 ```
-
-Thanks to Wes Bos for the initial config!

@@ -1,7 +1,7 @@
 {
    "name": "eslint-config-jimmontour",
    "version": "1.0.0",
-   "description": "",
+   "description": "My configuration for eslint and prettier, which uses the Airbnb rules with a few custom goodies on top.",
    "main": "index.js",
    "scripts": {
       "test": "echo \"Error: no test specified\" && exit 1"
